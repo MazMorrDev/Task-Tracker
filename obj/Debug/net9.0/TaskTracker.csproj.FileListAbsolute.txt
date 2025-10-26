@@ -1,0 +1,14 @@
+D:\Proyectos\C#\TaskTracker\bin\Debug\net9.0\TaskTracker.exe
+D:\Proyectos\C#\TaskTracker\bin\Debug\net9.0\TaskTracker.deps.json
+D:\Proyectos\C#\TaskTracker\bin\Debug\net9.0\TaskTracker.runtimeconfig.json
+D:\Proyectos\C#\TaskTracker\bin\Debug\net9.0\TaskTracker.dll
+D:\Proyectos\C#\TaskTracker\bin\Debug\net9.0\TaskTracker.pdb
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.AssemblyInfoInputs.cache
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.AssemblyInfo.cs
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.csproj.CoreCompileInputs.cache
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.dll
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\refint\TaskTracker.dll
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.pdb
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.genruntimeconfig.cache
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\ref\TaskTracker.dll
