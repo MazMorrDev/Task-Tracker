@@ -2,8 +2,8 @@
 
 public class Task(int id, string description)
 {
-    private int Id { get; set; } = id;
-    private string Description { get; set; } = description;
-    private TaskStatus Status { get; set; }
-    private DateTime CreatedDate { get; set; }
+    public int Id { get; set; } = id;
+    public string Description { get; set; } = description;
+    public TaskStatus Status { get; set; }
+    public DateTime CreatedDate { get; set; }
 }

@@ -8,7 +8,7 @@ CommandUtils.WriteWithColor("Welcome to TaskTracker " + CommandUtils.GoodEmoji, 
 CommandUtils.WriteWithColor("Type help to get information about commands " + CommandUtils.HelpEmoji, fontColor);
 while (true)
 {
-    string input = (Console.ReadLine() ?? "").Trim().ToLower();
+    string input = (Console.ReadLine() ?? "").Trim();
 
     if (input == "exit")
     {
@@ -16,8 +16,8 @@ while (true)
         Console.ResetColor();
         return;
     }
-
-    CommandExecuter.ExecuteCommand(input);
+    CommandExecuter commandExecuter = new();
+    commandExecuter.ExecuteCommand(input);
 
 }
 

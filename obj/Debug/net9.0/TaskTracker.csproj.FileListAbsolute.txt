@@ -12,3 +12,4 @@ D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\refint\TaskTracker.dll
 D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.pdb
 D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.genruntimeconfig.cache
 D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\ref\TaskTracker.dll
+D:\Proyectos\C#\TaskTracker\obj\Debug\net9.0\TaskTracker.sourcelink.json
