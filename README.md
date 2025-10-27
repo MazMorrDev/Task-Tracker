@@ -1,6 +1,6 @@
 # TaskTracker CLI by MazMorrDev
 
-Welcome my friend :D, this is a little project to get familiar with the .NET CLI. You are free to 
+Welcome my friend :D, this is a little project to get familiar with the .NET CLI. You are free to follow the Quick Start section to test the project
 
 ## Quick Start
 
