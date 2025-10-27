@@ -25,13 +25,13 @@ help - Show available commands
 
 create 'description' - Create a new task
 
-edit `<id>` 'new description' - Edit a task
+edit <id> 'new description' - Edit a task
 
-delete `<id>` - Delete a task
+delete <id> - Delete a task
 
-update -p `<id>` - Update task to "In Progress"
+update -p <id> - Update task to "In Progress"
 
-update -c `<id>` - Update task to "Completed"
+update -c <id> - Update task to "Completed"
 
 list - List all tasks
 
