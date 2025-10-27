@@ -17,7 +17,7 @@ while (true)
         return;
     }
     CommandExecuter commandExecuter = new();
-    commandExecuter.ExecuteCommand(input);
+    commandExecuter.Process(input);
 
 }
 
