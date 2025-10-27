@@ -19,6 +19,7 @@ public class TaskService
         int nextId = _tasks.Count != 0 ? _tasks.Max(t => t.Id) + 1 : 1;
 
         Task newTask = new(nextId, description);
+        newTask.CreatedDate = DateTime.Now;
         _tasks.Add(newTask);
         SaveChanges();
         CommandUtils.WriteWithColor($"La tarea '{description}' se ha creado. Id: {newTask.Id}. {CommandUtils.GoodEmoji} \n", ConsoleColor.Green);
@@ -51,7 +52,16 @@ public class TaskService
         }
 
         string description = task.Description;
+
+        // Eliminar la tarea
         _tasks.Remove(task);
+
+        // Reorganizar los IDs de las tareas restantes
+        for (int i = 0; i < _tasks.Count; i++)
+        {
+            _tasks[i].Id = i + 1; // Los IDs empiezan desde 1
+        }
+
         SaveChanges();
         CommandUtils.WriteWithColor($"Task '{description}' deleted successfully. {CommandUtils.GoodEmoji}\n", ConsoleColor.Green);
     }
@@ -113,7 +123,7 @@ public class TaskService
         var inProgressTasks = _tasks.Where(t => t.Status == TaskStatus.InProgress).ToList();
         if (inProgressTasks.Count == 0)
         {
-            CommandUtils.WriteWithColor( $"No In Progress tasks found. {CommandUtils.EmptyEmoji}\n", ConsoleColor.Yellow);
+            CommandUtils.WriteWithColor($"No In Progress tasks found. {CommandUtils.EmptyEmoji}\n", ConsoleColor.Yellow);
             return;
         }
         CommandUtils.PrintTable(inProgressTasks);

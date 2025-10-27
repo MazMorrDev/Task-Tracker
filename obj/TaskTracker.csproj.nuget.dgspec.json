@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\C#\\tasktracker\\TaskTracker.csproj": {}
+    "D:\\Proyectos\\C#\\TaskTracker\\TaskTracker.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\C#\\tasktracker\\TaskTracker.csproj": {
+    "D:\\Proyectos\\C#\\TaskTracker\\TaskTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\C#\\tasktracker\\TaskTracker.csproj",
+        "projectUniqueName": "D:\\Proyectos\\C#\\TaskTracker\\TaskTracker.csproj",
         "projectName": "TaskTracker",
-        "projectPath": "D:\\Proyectos\\C#\\tasktracker\\TaskTracker.csproj",
+        "projectPath": "D:\\Proyectos\\C#\\TaskTracker\\TaskTracker.csproj",
         "packagesPath": "C:\\Users\\LazyCompile\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\C#\\tasktracker\\obj\\",
+        "outputPath": "D:\\Proyectos\\C#\\TaskTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
